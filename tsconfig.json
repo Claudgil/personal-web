@@ -17,5 +17,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "references": [{ "path": "C:/Users/pavil/Desktop/Web_CV/personal-web/tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
