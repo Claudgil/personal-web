@@ -29,7 +29,7 @@ El propósito de este portafolio es presentar de forma profesional y creativa mi
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/claudiagil/personal-web.git
+   git clone https://github.com/Claudgil/personal-web.git
 Instala las dependencias:
 
 bash
