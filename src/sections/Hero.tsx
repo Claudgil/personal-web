@@ -1,7 +1,7 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { resumeData } from '../data/resumeData';
-import CVEnglish from "../../public/ClaudiaGilCV...pdf"
-import CVSpanish from "../../public/ClaudiaGilCV..pdf"
+import CVEnglish from "../../public/CVClaudiaGilEnglish.pdf"
+import CVSpanish from "../../public/CVClaudiaGilEspañol.pdf"
 
 
 const Hero = () => {

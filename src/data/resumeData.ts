@@ -5,8 +5,8 @@ import Cover from "../../public/cover proyecto aws.png";
 export const resumeData: ResumeData = {
   personal: {
     name: 'Claudia Gil',
-    title: 'Junior Python Developer',
-    bio: 'Software developer focused on automation, data analysis, and cloud technologies. Currently building real-world projects with Python, SQL, AWS and Make.',
+    title: 'Junior Python Developer | IA & Automations | CloudFormation',
+    bio: 'Software developer focused on automation, data analysis, and cloud technologies. Currently building real-world projects with Python, SQL, AWS, Make and N8N.',
     email: 'claudiagil.leon@google.com',
     phone: 'not found',
     location: 'LATAM',
@@ -21,7 +21,7 @@ export const resumeData: ResumeData = {
   experience: [
     {
       id: 1,
-      position: 'Human Resourses Assistant',
+      position: 'Human Resources Assistant',
       company: 'Morris & Opazo',
       location: 'Chile',
       startDate: '2025-02',
@@ -64,15 +64,24 @@ export const resumeData: ResumeData = {
   education: [
 {
   id: 1,
-  degree: 'Python Fundamentals 1',
-  institution: 'CISCO',
+  degree: 'Test Automation Engineer - NODO',
+  institution: 'Desafio Latam',
   location: 'Online',
-  startDate: '2025-10',
+  startDate: '2025-11',
   endDate: null,
-  description: 'Ongoing online course at Desafío LATAM focused on using Python to clean, transform, and visualize data. Working with tools like Pandas, NumPy, Matplotlib, and Seaborn to perform exploratory analysis and extract insights for better decision-making.'
+  description: 'Hands-on training in software quality and automated testing. Covers QA fundamentals, test case design, web and API test automation using modern tools, best practices, and building real-world automation workflows.'
 },
 {
   id: 2,
+  degree: 'Python Fundamentals 1',
+  institution: 'CISCO',
+  location: 'Online',
+  startDate: '2025-11',
+  endDate: null,
+  description: 'Hands-on training in Python fundamentals, covering programming logic, data structures, control flow, and problem-solving. Includes applied exercises designed to build a strong foundation for real-world development.'
+},
+{
+  id: 3,
   degree: 'AWS Cloud Architect Training',
   institution: 'Morris & Opazo - AWS re/Start',
   location: 'Online',
@@ -81,7 +90,7 @@ export const resumeData: ResumeData = {
   description: 'Completed the AWS re/Start program, focused on cloud computing fundamentals, networking, Linux, databases, and core AWS services such as EC2, S3, and RDS. Included practical exercises in Python, automation tools, and preparation for the AWS Cloud Practitioner certification.'
 },
 {
-  id: 3,
+  id: 4,
   degree: 'Career Accelerator with Power BI',
   institution: 'ZakiData',
   location: 'Online',
