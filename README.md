@@ -12,7 +12,7 @@ Este proyecto es mi sitio web personal, desarrollado con **React**, **TypeScript
 
 ## 🎯 Objetivo
 
-El propósito de este portafolio es presentar de forma profesional y creativa mi perfil como desarrolladora de software. Está pensado para:
+El propósito de este portafolio es presentar de forma profesional y creativa mi perfil profesional. Está pensado para:
 
 - Reclutadores y empresas que deseen conocer mi experiencia y habilidades.
 - Colaboradores y colegas del área tech.
