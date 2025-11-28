@@ -67,7 +67,7 @@ export const resumeData: ResumeData = {
   degree: 'Test Automation Engineer - NODO',
   institution: 'Desafio Latam',
   location: 'Online',
-  startDate: '2025-11',
+  startDate: '2025-12',
   endDate: null,
   description: 'Hands-on training in software quality and automated testing. Covers QA fundamentals, test case design, web and API test automation using modern tools, best practices, and building real-world automation workflows.'
 },
