@@ -1,12 +1,14 @@
 import { useEffect, useRef } from 'react';
 import SectionHeading from '../components/SectionHeading';
-import ProgressBar from '../components/ProgressBar';
-import { resumeData } from '../data/resumeData';
+//import ProgressBar from '../components/ProgressBar';
+import * as resumeData from '../data/resumeData';
 import AWS from "../../public/aws-re-start-graduate.png";
 import Zaki from "../../public/ZakiData.png";
+import IAAutomation from "../../public/Certificado_Transformación_digital_con_IA_y_Automatización.jpg";
+import english from "../../public/EFSET.jpg";
 
 const Skills = () => {
-  const { skills } = resumeData;
+  const { skills } = resumeData.resumeData;
   const progressRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
@@ -14,8 +16,8 @@ const Skills = () => {
       (entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            const progressBars = entry.target.querySelectorAll<HTMLDivElement>('[data-progress]');
-            progressBars.forEach(bar => {
+            const ProgressBars = entry.target.querySelectorAll<HTMLDivElement>('[data-progress]');
+            ProgressBars.forEach(bar => {
               const percentage = bar.getAttribute('data-progress');
               if (percentage) {
                 bar.style.width = `${percentage}%`;
@@ -94,12 +96,9 @@ const Skills = () => {
             </div>
           </div>
           
-          {/* Languages & Certifications */}
+          {/* Languages*/}
           <div className="card md:col-span-2 lg:col-span-1 animate-on-scroll">
-            <h3 className="text-xl font-bold mb-6 text-secondary-900 dark:text-white">
-              Languages & Certifications
-            </h3>
-            
+                        
             <div className="mb-6">
               <h4 className="font-semibold mb-3 text-secondary-800 dark:text-secondary-200">Languages</h4>
               <ul className="space-y-2">
@@ -112,24 +111,26 @@ const Skills = () => {
               </ul>
             </div>
             
-            <div>
-              <h4 className="font-semibold mb-3 text-secondary-800 dark:text-secondary-200">Certifications</h4>
-              {/* <ul className="space-y-4">
-                {skills.certifications.map((cert) => (
-                  <li key={cert.id} className="border-l-2 border-primary-500 pl-4 py-1">
-                    <h5 className="font-medium text-secondary-900 dark:text-white">{cert.name}</h5>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-secondary-600 dark:text-secondary-400">{cert.issuer}</span>
-                      <span className="text-secondary-500 dark:text-secondary-400">{cert.year}</span>
-                    </div>
-                  </li>
-                ))}
-              </ul> */}
-
-              <img src={AWS} alt="" />
-              <img src={Zaki} alt="" />
-
             </div>
+          
+            <div className="card md:col-span-2 lg:col-span-3 items-center animate-on-scroll">
+              <h4 className="font-semibold mb-3 text-secondary-800 dark:text-secondary-200">
+                Certifications
+              </h4>
+              <div className="grid grid-cols-3 gap-3 md:gap-4">
+                <div className="flex justify-center">
+                  <img src={AWS} alt="AWS Certification" className="h-40 md:h-42 max-w-full" />
+                </div>
+                <div className="flex justify-center">
+                  <img src={english} alt="English level Certification" className="h-80 md:h-100 max-w-full" />
+                </div>
+                <div className="flex justify-center">
+                  <img src={IAAutomation} alt="IA Automation Certification" className="h-80 md:h-100 max-w-full" />
+                </div>
+                <div className="flex justify-center">
+                  <img src={Zaki} alt="Zaki Certification" className="h-80 md:h-100 max-w-full" />
+                </div>
+              </div>
           </div>
         </div>
       </div>

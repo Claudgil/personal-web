@@ -7,9 +7,9 @@ export const resumeData: ResumeData = {
     name: 'Claudia Gil',
     title: 'Junior Python Developer | IA & Automations | CloudFormation',
     bio: 'Software developer focused on automation, data analysis, and cloud technologies. Currently building real-world projects with Python, SQL, AWS, Make and N8N.',
-    email: 'claudiagil.leon@google.com',
-    phone: 'not found',
-    location: 'LATAM',
+    email: 'claudiagil.leon@gmail.com',
+    phone: '',
+    location: 'Based in LATAM, Working Globally',
     //website: 'www.johndoe.com',
     profileImage: Profile,
     social: {
@@ -76,12 +76,21 @@ export const resumeData: ResumeData = {
   degree: 'Python Fundamentals 1',
   institution: 'CISCO',
   location: 'Online',
-  startDate: '2025-11',
+  startDate: '2025-12',
   endDate: null,
   description: 'Hands-on training in Python fundamentals, covering programming logic, data structures, control flow, and problem-solving. Includes applied exercises designed to build a strong foundation for real-world development.'
 },
 {
   id: 3,
+  degree: 'Digital transformation with AI and automation',
+  institution: 'Desafio Latam',
+  location: 'Online',
+  startDate: '2025-12',
+  endDate: '2026-01',
+  description: 'Specialized program focused on orchestrating Generative AI and No-Code automation solutions. Skilled in deploying complex workflows using n8n and API integrations, as well as optimizing LLM performance through advanced prompt engineering (CRTF framework). The curriculum emphasized strategic process analysis—including ROI calculation and impact prioritization—while adhering to strict standards of digital ethics and security.'
+},
+{
+  id: 4,
   degree: 'AWS Cloud Architect Training',
   institution: 'Morris & Opazo - AWS re/Start',
   location: 'Online',
@@ -90,7 +99,7 @@ export const resumeData: ResumeData = {
   description: 'Completed the AWS re/Start program, focused on cloud computing fundamentals, networking, Linux, databases, and core AWS services such as EC2, S3, and RDS. Included practical exercises in Python, automation tools, and preparation for the AWS Cloud Practitioner certification.'
 },
 {
-  id: 4,
+  id: 5,
   degree: 'Career Accelerator with Power BI',
   institution: 'ZakiData',
   location: 'Online',
@@ -101,19 +110,19 @@ export const resumeData: ResumeData = {
   ],
 skills: {
   technical: [
-    { id: 1, name: 'Python', proficiency: 60 },              
-    { id: 2, name: 'Git', proficiency: 60 },               
+    { id: 1, name: 'Python', proficiency: 70 },              
+    { id: 2, name: 'Git', proficiency: 65 },               
 //    { id: 3, name: 'MySQL', proficiency: 50 },                 
 //    { id: 4, name: 'SQL', proficiency: 60 },            
 //    { id: 5, name: 'Data Analysis', proficiency: 50 },             
 //    { id: 6, name: 'Linux', proficiency: 50 },               
-    { id: 7, name: 'Node.js', proficiency: 55 },                 
+    { id: 7, name: 'Node.js', proficiency: 65 },                 
     { id: 8, name: 'Zapier', proficiency: 50 },          
     { id: 9, name: 'Make', proficiency: 50 },
-    { id: 10, name: 'N8N', proficiency: 30 },
+    { id: 10, name: 'N8N', proficiency: 50 },
     { id: 11, name: 'Postman', proficiency: 30 },
     { id: 12, name: 'Cypress', proficiency: 30 },
-//    { id: 13, name: 'N8N', proficiency: 30 },   
+//    { id: 13, name: '', proficiency: 30 },   
   ],
     soft: [
       'Adaptability',
