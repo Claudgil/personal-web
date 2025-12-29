@@ -77,7 +77,7 @@ export const resumeData: ResumeData = {
   institution: 'CISCO',
   location: 'Online',
   startDate: '2025-12',
-  endDate: null,
+  endDate: '2026-01',
   description: 'Hands-on training in Python fundamentals, covering programming logic, data structures, control flow, and problem-solving. Includes applied exercises designed to build a strong foundation for real-world development.'
 },
 {
@@ -110,14 +110,14 @@ export const resumeData: ResumeData = {
   ],
 skills: {
   technical: [
-    { id: 1, name: 'Python', proficiency: 70 },              
-    { id: 2, name: 'Git', proficiency: 65 },               
+    { id: 1, name: 'Python', proficiency: 50 },              
+    { id: 2, name: 'Git', proficiency: 55 },               
 //    { id: 3, name: 'MySQL', proficiency: 50 },                 
 //    { id: 4, name: 'SQL', proficiency: 60 },            
 //    { id: 5, name: 'Data Analysis', proficiency: 50 },             
 //    { id: 6, name: 'Linux', proficiency: 50 },               
-    { id: 7, name: 'Node.js', proficiency: 65 },                 
-    { id: 8, name: 'Zapier', proficiency: 50 },          
+    { id: 7, name: 'Node.js', proficiency: 45 },                 
+//    { id: 8, name: 'Zapier', proficiency: 50 },          
     { id: 9, name: 'Make', proficiency: 50 },
     { id: 10, name: 'N8N', proficiency: 50 },
     { id: 11, name: 'Postman', proficiency: 30 },
