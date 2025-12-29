@@ -6,6 +6,7 @@ import AWS from "../../public/aws-re-start-graduate.png";
 import Zaki from "../../public/ZakiData.png";
 import IAAutomation from "../../public/Certificado_Transformación_digital_con_IA_y_Automatización.jpg";
 import english from "../../public/EFSET.jpg";
+import python1 from "../../public/python-essentials-1.1.png";
 
 const Skills = () => {
   const { skills } = resumeData.resumeData;
@@ -117,12 +118,15 @@ const Skills = () => {
               <h4 className="font-semibold mb-3 text-secondary-800 dark:text-secondary-200">
                 Certifications
               </h4>
-              <div className="grid grid-cols-3 gap-3 md:gap-4">
+              <div className="grid grid-cols-3 gap-3 md:gap-4 items-center">
                 <div className="flex justify-center">
                   <img src={AWS} alt="AWS Certification" className="h-40 md:h-42 max-w-full" />
                 </div>
                 <div className="flex justify-center">
-                  <img src={english} alt="English level Certification" className="h-80 md:h-100 max-w-full" />
+                  <img src={python1} alt="Python Essentials 1 Certification" className="h-40 md:h-42 max-w-full" />
+                </div>
+                <div className="flex justify-center">
+                  <img src={english} alt="English level Certification" className="h-80 md:h-82 max-w-full" />
                 </div>
                 <div className="flex justify-center">
                   <img src={IAAutomation} alt="IA Automation Certification" className="h-80 md:h-100 max-w-full" />
