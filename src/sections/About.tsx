@@ -22,10 +22,10 @@ const About = () => {
               {personal.bio}
             </p>
             <p className="mb-6">
-              Creating intuitive and scalable solutions for freelancers and digital businesses.
+              Currently, I utilize my skills in Python to create and automate test cases, verify the accuracy of workflow processes, and provide support for te QA Team. Also, I am experimenting wit Automation and IA Powered Solutions such as N8N to improve Customer Service and streamline workflows.
             </p>
             <p>
-              I value clean code, continuous learning, and purposeful tech that improves lives.
+              My background in Costumer Service, Operations, and Process Analysis helps to provide a detailed orientated, hands-on perspective on QA with an emphasis on Reliability, Continuous Improvement and A Positive Impact on The World. I am eager to further develop my skills and contribute as a QA Automation Engineer to build consistent, reliable, and high quality Software Products.
             </p>
           </div>
           
